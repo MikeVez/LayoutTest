@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Spartan : 100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Freckle+Face&display=swap');
 
-#wrapper{
-    max-width: 1000px;
-}
-
 /*---------------------------------------Navbar-----*/
 .navbar{
-   background-color: #ffc4d5;
+    background-color: #ffc4d5;
 }
 
 .navbar a, span{
