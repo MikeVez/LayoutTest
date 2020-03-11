@@ -23,7 +23,8 @@
 .main-img{
     background: url("../images/hero-img.jpg") no-repeat center; 
     height: 430px;
-
+    max-width: 777px;
+    margin: 0;
     /*-webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -31,8 +32,27 @@
     display: flex;
 }
 
-.main--text{
+.main-img p{
     font-family: "Spartan", cursive;
     margin-left: 30px;
     margin-top: 30px;
+    margin-bottom: 0;
+}
+
+
+
+/*------------------------------Products--------*/
+
+.block-divider{
+    height: 2px;
+    max-width: 777px;
+    background-color: pink;
+}
+
+.product-container{
+    border-radius: 10px;
+    border: 1px solid lightskyblue;
+    height: 120px;
+    text-align: center;
+    max-width: 770px;
 }
