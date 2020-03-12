@@ -43,7 +43,20 @@
 
 /*------------------------------Products--------*/
 
-.block-divider{
+
+.card--products{
+    max-width: 1000px;
+    text-align: center;
+}
+
+.nav-link--products{
+    margin: 0 50px 0 50px;
+    background-color: lightpink;
+}
+
+
+
+/*.block-divider{
     height: 2px;
     max-width: 1000px;
     background-color: #41B3A3;
@@ -68,14 +81,26 @@
 
 .product-container a:hover{
     color: lightpink;
-}
+}*/
 
 /*------------------------------Footer--------*/
 
 .footer{
-    border: 1px solid black;
-    height: 20px;
-    margin-top: 200px;
     max-width: 1000px;
     position: relative;
+    background-color: #87e960;
+    color: #fafafa;
+    min-height: 80px;
+    bottom: 0px;
+    position: fixed;
+}
+
+
+/*------------------------------Media Rules--------*/
+
+@media(max-width: 700px) {
+    .nav-link--products{
+        margin: 0 20px 0 20px;
+        
+    }
 }
