@@ -17,6 +17,10 @@
     font-size: 2em;
 }
 
+.nav-top a{
+    text-transform: uppercase;
+}
+
 
 /*------------------------------Main Image--------*/
 
@@ -44,16 +48,26 @@
 /*------------------------------Products--------*/
 
 
-.card--products{
+.row-nav{
     max-width: 1000px;
+    margin: 30px 0 30px 0;
     text-align: center;
 }
 
-.nav-link--products{
-    margin: 0 50px 0 50px;
-    background-color: lightpink;
+.products{
+    border: 2px solid black;
+    margin: 20px 0 10px 0;
+    height: 300px;
+    max-width: 1000px;
 }
 
+.product-navbar{
+    
+}
+
+.col-sm{
+    height: 30px;
+}
 
 
 /*.block-divider{
