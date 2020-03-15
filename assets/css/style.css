@@ -25,7 +25,7 @@
 /*------------------------------Main Image--------*/
 
 .container-main{
-    margin-top: 100px;
+    margin-top: 80px;
     max-width: 1000px;
 }
 
@@ -51,8 +51,9 @@
 
 
 .block-divider{
-    height: 5px;
-    max-width: 1000px;
+    height: 2px;
+    width: 80%;
+    max-width: 800px;
     background-color: #41B3A3;
 }
 
@@ -69,12 +70,9 @@
     bottom: 0px;    
 }
 
-
-
 #footer-info{
     text-align: left;
 }
-
 
 .social-links{
     padding-top: 30%;
@@ -85,6 +83,10 @@
     color: #fafafa;
 }
 
+.social-links li a i:hover{
+    color: lightpink;
+}
+
 
 
 /*------------------------------Media Rules--------*/
@@ -92,6 +94,9 @@
 @media(min-width: 700px) {
     .hero-img{
         min-height: 500px;
+    }
+    .social-links{
+        padding-left: 50%;
     }
 }
 
