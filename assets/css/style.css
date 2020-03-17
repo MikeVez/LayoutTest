@@ -21,6 +21,15 @@
     text-transform: uppercase;
 }
 
+.nav-top a:hover{
+    transform: skew(-5deg);
+    font-weight: 600;
+}
+
+.nav-top a:active{
+    transform: skew(-5deg);
+}
+
 
 /*------------------------------Main Image--------*/
 
@@ -34,6 +43,7 @@
 
 .hero-img{
     background-image: url('../images/hero-img.PNG');
+    background-position: center center;
     background-size: cover;  
     min-height: 200px;
 }
@@ -68,24 +78,39 @@
     color: #fafafa;
     min-height: 80px;
     bottom: 0px;    
+    
 }
 
-#footer-info{
+#footer-info{ 
     text-align: left;
+    
+}
+
+.social-col{
+    padding: 0;
+    margin: 0;
+    /*position: relative;*/
 }
 
 .social-links{
-    padding-top: 30%;
-    text-align: center;
+    /*position: absolute;*/
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 0;
+    border: 1px solid #000;    
 }
+
 
 .social-links li a i{
     color: #fafafa;
 }
 
 .social-links li a i:hover{
-    color: lightpink;
+    color: rgb(123, 170, 164);
+    font-size: 220%;
 }
+
+
 
 
 
@@ -96,7 +121,7 @@
         min-height: 500px;
     }
     .social-links{
-        padding-left: 50%;
+        margin: 50px 0 0 120px;
     }
 }
 
