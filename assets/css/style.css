@@ -62,9 +62,9 @@ html,body{
     position: relative;
     align-content: center;   
     max-width: 1200px;
-    height: 600px;
-   
+    height: 600px;  
 }
+
 .hero-img{   
     position: relative;  
     float: left;
@@ -80,8 +80,7 @@ html,body{
     padding: 0 20px;
     max-width: 400px;
     height: 600px;
-    float: right;
-   
+    float: right;  
 }
 
 
