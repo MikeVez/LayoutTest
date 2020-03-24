@@ -88,35 +88,40 @@ html,body{
 
 /*------------------------------image gallery--------*/
 
+.container-product{
+    padding: 0;
+}
 
-.gallery-container{
-    margin-top: 30px;
-    padding-left: 20px;
+.gallery-wrapper{
+    margin: 30px;
+    padding: 0;
     position: relative;
     max-width: 1200px;
 }
 
-.gallery-container span{
+.gallery-wrapper span{
     font-size: 10px;
     margin-bottom: 5px;
 }
 
 .gallery{
-    margin: 5px;
+    margin: 10px;
     border: 1px solid rgb(233, 233, 233);
     float: left;
-    width: 150px;
+    width: 170px;
+    overflow: hidden;
 }
 
 .gallery img{
     
     width: 100%;
     height: auto;
-    transition: transform .2s; /* Animation */
+    transition: transform .2s; /* Zoom Effect */
+ 
 }
 
 .gallery img:hover{
-    transform: scale(1.05);
+    transform: scale(1.08);
 }
 
 .gallery-desc{
@@ -201,14 +206,32 @@ html,body{
 
 /*------------------------------Media Rules--------*/
 
-@media(min-width: 700px) {
-    
+@media(min-width: 700px){         /*screen smaller than shown size*/
     
 
 }
 
-@media(max-width: 700px){
-    
+@media(max-width: 500px){         /*screen smaller than shown size*/
+    .container-product{
+        padding-right: 20px;
+    }
+     .gallery{
+        margin-left: auto;
+        margin-right: auto;
+        width: 160px;
+    }
+}
+
+@media(max-width: 400px){
+    .container-product{
+        padding-right: 20px;
+        /*margin-left: 20px;*/
+    }
+     .gallery{
+        margin-left: auto;
+        margin-right: auto;
+        width: 140px;        
+    }
 }
 
 
